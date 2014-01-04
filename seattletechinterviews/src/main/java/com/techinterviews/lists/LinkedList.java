@@ -19,25 +19,7 @@ public class LinkedList {
 		
 	}
 
-	/**
-	 * 1. Empty linked list 
-	 * 2. One element [0]->null 
-	 * 2. 2 elements [0]=>[1]=>NULL
-	 * 3. 3 elements 
-	 */
 	public void reverse() {
-		if (head == null){
-			return;
-		}
-		ListNode current = head;
-		ListNode prev = null;
-		while(current != null){
-			ListNode next = current.next;
-			current.next = prev;
-			prev = current;
-			current = next;
-		}
-		head = prev;
 	}
 
 	public ListNode get(int at) {
