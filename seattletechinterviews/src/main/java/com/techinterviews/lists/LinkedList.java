@@ -11,7 +11,7 @@ public class LinkedList {
 	}
 
 	/**
-	 * Please implement and execute the <code>InsertAtLikedListTest</code>
+	 * Please implement and execute the <code>InsertAtLinkedListTest</code>
 	 * @param k
 	 * @param at
 	 */
