@@ -5,13 +5,13 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import com.techinterviews.arrays.ArrangeNumbersInAlternationOrders;
+import com.techinterviews.arrays.ArrangeNumbersInAlternateOrders;
 public class ArrangeNumbersInAlternateOrdersTest {
 	@Test
 	public void testNormalNumbers(){
 		int array[] = {3, 5, 7, 8, 4, 9};
 		int arrayResult[] = { 3 , 5 , 4, 8 ,7 , 9};
-		ArrangeNumbersInAlternationOrders arrange = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange = new ArrangeNumbersInAlternateOrders();
 		arrange.algorithm(array);
 		compareArrays(array, arrayResult);
 	}
@@ -26,7 +26,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 	public void testNegNumbers(){
 		int array[] = {3,1,2,3,-1,-1,-1};
 		int arrayResult[] = {-1,-1,-1,2,1,3,3};
-		ArrangeNumbersInAlternationOrders arrange = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange = new ArrangeNumbersInAlternateOrders();
 		arrange.algorithm(array);
 		compareArrays(array, arrayResult);
 	}
@@ -35,7 +35,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 	public void testJust1Number(){
 		int array[] = {3};
 		int arrayResult[] = {3};
-		ArrangeNumbersInAlternationOrders arrange = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange = new ArrangeNumbersInAlternateOrders();
 		arrange.algorithm(array);
 		compareArrays(array, arrayResult);
 	}
@@ -44,7 +44,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 	public void testJust2Number(){
 		int array[] = {3,-1};
 		int arrayResult[] = {-1,3};
-		ArrangeNumbersInAlternationOrders arrange = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange = new ArrangeNumbersInAlternateOrders();
 		arrange.algorithm(array);
 		compareArrays(array, arrayResult);
 	}
@@ -53,7 +53,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 	public void testLargeNumbers(){
 		int array[] = {Integer.MIN_VALUE,1,2,3,-1,-1,Integer.MAX_VALUE};
 		int arrayResult[] = {Integer.MIN_VALUE,-1,-1,2,1,Integer.MAX_VALUE,3};
-		ArrangeNumbersInAlternationOrders arrange = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange = new ArrangeNumbersInAlternateOrders();
 		arrange.algorithm(array);
 		compareArrays(array, arrayResult);
 	}
@@ -68,7 +68,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 			array[i] =random;
 		}
 		long start = System.currentTimeMillis();
-		ArrangeNumbersInAlternationOrders arrange = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange = new ArrangeNumbersInAlternateOrders();
 		arrange.algorithm(array);
 		long end = System.currentTimeMillis();
 		long timeSpent = end - start; 
@@ -81,7 +81,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 			array2[i] =random;
 		}
 		long start1 = System.currentTimeMillis();
-		ArrangeNumbersInAlternationOrders arrange1 = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange1 = new ArrangeNumbersInAlternateOrders();
 		arrange1.algorithm(array2);
 		long end1 = System.currentTimeMillis();
 		
@@ -98,7 +98,7 @@ public class ArrangeNumbersInAlternateOrdersTest {
 		}
 		
 		long start3 = System.currentTimeMillis();
-		ArrangeNumbersInAlternationOrders arrange3 = new ArrangeNumbersInAlternationOrders();
+		ArrangeNumbersInAlternateOrders arrange3 = new ArrangeNumbersInAlternateOrders();
 		arrange1.algorithm(array3);
 		long end3 = System.currentTimeMillis();
 		long timeSpent3 = end3 - start3;

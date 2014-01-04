@@ -1,6 +1,6 @@
 package com.techinterviews.arrays;
 
-public class ArrangeNumbersInAlternationOrders {
+public class ArrangeNumbersInAlternateOrders {
 
 	/**
 	 * Arrange the numbers in an array in alternating order. For example if the

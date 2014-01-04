@@ -2,7 +2,7 @@ package com.techinterviews.arrays.solution;
 
 import java.util.Arrays;
 
-public class ArrangeNumbersInAlternationOrders {
+public class ArrangeNumbersInAlternateOrders {
 
 	/**
 	 * Arrange the numbers in an array in alternating order. For example if the
