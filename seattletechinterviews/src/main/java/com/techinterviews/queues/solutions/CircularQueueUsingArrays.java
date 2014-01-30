@@ -25,13 +25,17 @@ public class CircularQueueUsingArrays {
 	 * @param v
 	 */
 	public void enqueue(int v){
+		
  		int size= ((head - tail) > 0 ? head -tail : -1 * (head - tail) ) + 1;
+ 		
 		if (size > array.length){
 			throw new IllegalArgumentException("No more space");
-		}		
+		}	
+		
 		if (tail < 0 ){
 			tail = 0;
 		}
+		
 		array[tail] = v;
 		if (tail + 1  == array.length){
 			if (head == 0){
