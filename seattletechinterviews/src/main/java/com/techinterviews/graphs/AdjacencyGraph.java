@@ -21,11 +21,11 @@ public class AdjacencyGraph {
 		return false;
 	}
 	
-	public List<Integer> bfs(){
+	public List<Integer> bfs(int vertex){
 		return null;
 	}
 	
-	public List<Integer> dfs(){
+	public List<Integer> dfs(int vertex){
 		return null;
 	}
 
