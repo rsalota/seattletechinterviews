@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-public class AdjacencyGraphRemoveTest {
+public class AdjacencyListGraphTest {
 
 	private AdjacencyListGraph g;
 
@@ -16,20 +16,15 @@ public class AdjacencyGraphRemoveTest {
 	}
 
 	@Test
-	public void testAdjacencyGraphEdgeRemove() {
+	public void testAdjacencyGraphSet() {
 		g.addEdge(1, 1);
 		Assert.assertTrue(g.hasEdge(1, 1));
-		g.removeEdge(1, 1);
-		Assert.assertFalse(g.hasEdge(1, 1));
 	}
-	
 	
 	@Test
-	public void testAdjacencyGraphEdgeRemoveNotALoop() {
+	public void testNotALoopAdjacencyGraphSet() {
 		g.addEdge(11, 1);
 		Assert.assertTrue(g.hasEdge(11, 1));
-		g.removeEdge(1, 11);
-		Assert.assertFalse(g.hasEdge(11, 1));
+		Assert.assertTrue(g.hasEdge(1, 11));
 	}
-
 }

@@ -1,5 +1,11 @@
 package com.techinterviews.graphs;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+
+
 public class AdjacencyGraph {
 
 	public AdjacencyGraph(int n) {
@@ -13,6 +19,14 @@ public class AdjacencyGraph {
 
 	public boolean hasEdge(int i, int j) {
 		return false;
+	}
+	
+	public List<Integer> bfs(){
+		return null;
+	}
+	
+	public List<Integer> dfs(){
+		return null;
 	}
 
 }
