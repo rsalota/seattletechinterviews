@@ -28,5 +28,9 @@ public class AdjacencyGraph {
 	public List<Integer> dfs(int vertex){
 		return null;
 	}
+	
+	public int shortestPath(int v1, int v2){
+		return -1;
+	}
 
 }

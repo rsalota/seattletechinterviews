@@ -8,11 +8,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class AdjacencyGraphBfsTest {
-	private com.techinterviews.graphs.solutions.AdjacencyGraph adj;
+	private AdjacencyGraph adj;
 
 	@Before
 	public void setUp() {
-		adj = new com.techinterviews.graphs.solutions.AdjacencyGraph(10);
+		adj = new AdjacencyGraph(10);
 	}
 
 	@Test
