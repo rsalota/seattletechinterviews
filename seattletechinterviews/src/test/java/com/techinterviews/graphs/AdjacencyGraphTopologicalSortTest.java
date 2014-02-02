@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.techinterviews.graphs.solutions.AdjacencyGraph;
+import com.techinterviews.graphs.AdjacencyGraph;
 
 /**
  * Tests the following condition for topological sort 

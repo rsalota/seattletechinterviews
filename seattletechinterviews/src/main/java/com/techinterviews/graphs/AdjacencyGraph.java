@@ -34,6 +34,10 @@ public class AdjacencyGraph {
 		return -1;
 	}
 	
+	public List<Integer> topologicalSort(){
+		return null;
+	}
+	
 	/**
 	 * Calculate the degree of each vertex in the graph.
 	 * @return Map of vertex no => degree
