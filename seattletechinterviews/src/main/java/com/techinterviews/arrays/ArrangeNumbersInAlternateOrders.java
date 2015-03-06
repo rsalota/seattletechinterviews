@@ -11,6 +11,7 @@ public class ArrangeNumbersInAlternateOrders {
 	 *  0 1 2 3 4 5 
 	 *  3 4 5 7 8 9 
 	 *  3 5 4 8 7 9
+	 *  
 	 * @param array
 	 * @return
 	 */
