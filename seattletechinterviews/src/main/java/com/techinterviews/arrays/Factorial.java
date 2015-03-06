@@ -2,7 +2,7 @@ package com.techinterviews.arrays;
 
 public class Factorial {
 	
-	public class MyBigInteger {
+	public class WMyBigInteger {
 		
 		public MyBigInteger(int myInt){
 			
