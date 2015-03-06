@@ -1,6 +1,0 @@
-E:\GitHub\BasicAlgos\FindKthInorderNode\FindKthInorderNode\bin\Debug\FindKthInorderNode.exe.config
-E:\GitHub\BasicAlgos\FindKthInorderNode\FindKthInorderNode\bin\Debug\FindKthInorderNode.exe
-E:\GitHub\BasicAlgos\FindKthInorderNode\FindKthInorderNode\bin\Debug\FindKthInorderNode.pdb
-E:\GitHub\BasicAlgos\FindKthInorderNode\FindKthInorderNode\obj\Debug\FindKthInorderNode.csprojResolveAssemblyReference.cache
-E:\GitHub\BasicAlgos\FindKthInorderNode\FindKthInorderNode\obj\Debug\FindKthInorderNode.exe
-E:\GitHub\BasicAlgos\FindKthInorderNode\FindKthInorderNode\obj\Debug\FindKthInorderNode.pdb
