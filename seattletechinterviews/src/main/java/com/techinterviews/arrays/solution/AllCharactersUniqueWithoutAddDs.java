@@ -4,28 +4,30 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-// Problem 1.1 : With additional data structure
-public class AllCharactersUnique {
+// Problem 1.1 : Without additional data structure
+public class AllCharactersUniqueWithoutAddDs {
     
     public boolean algorithm(String input) {
         if (input.length() == 1 || input.length() ==0){
             return true;
         }
-        HashSet<Character> duplicateChecker = new HashSet<Character>();
+        
         char[] charactersArray = input.toCharArray();
-        for(char letter : charactersArray) {
-            if(duplicateChecker.contains(letter) == true) {
-                return false;
-            }
-            else {
-                duplicateChecker.add(letter);
+        for(int i = 0; i< charactersArray.length; i++){
+            
+            for(int j = i+1; j<charactersArray.length; j++) {
+                
+                if(charactersArray[i] == charactersArray[j]){
+                    return false;
+                }
             }
         }
+        
         return true;
     }
     
     public static void main(String[] args) {
-        AllCharactersUnique obj = new AllCharactersUnique(); 
+        AllCharactersUniqueWithoutAddDs obj = new AllCharactersUniqueWithoutAddDs(); 
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
         System.out.println(obj.algorithm(input));
